@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#navbar {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    font-style: bebas-neue;
+}
+
+#dropdownlist {
+    background-color: black;
+    color: white;
+    padding-left: 2vw;
+    width: 15vw;
+    border: 0;
+    font-size: large;
+}
+
+.searchbar {
+    background-color: black;
+    color: white;
+    width: 20vw;
+    border: 0.2px solid white;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    font-size: large;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 0.5vw;
+    border-radius: 0.25vw;
+}
+
+.luxurious-script-regular {
+    font-family: "Luxurious Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 7.5vw;
+}
+
+.logo {
+    margin-left: 16vh;
+    margin-right: 2vh;
+    border-radius: 7vh;
+}
+
+.heading {
+    color: white;
+    padding: 1vw 15vw;
+    padding-left: 0;
+    font-size: 2vw;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+    color: aliceblue;
+}
+
+.links > li {
+    color: aliceblue;
+    font-size: large;
+    padding-top: 1.5vw;
+}
+
+.login {
+    background-color: blue;
+    color: white;
+    border: 0;
+    margin: 2vh;
+    border-radius: 1vh;
+    margin-right: 4vh;
+}
+
+.slogan {
+    background-color: rgb(35, 34, 34);
+}
+
+.slogan > p {
+    font-size: 3vw;
+    position: relative;
+    left: 25vw;
+    color: aliceblue;
+}
+
+.background {
+    background-image: url(./images/nasaAstronaut.webp);
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+    left: 10vw;
+    margin-bottom: 5vw;
+}
+
+.news {
+    display: flex;
+    margin: 10vw;
+    margin-top: 5vw;
+    gap: 0.5vw;
+}
+
+.jwst {
+    background-image: url("./images/jwst.jpg");
+    height: 31.25vw;
+    width: 37.5vw;
+    left: 2.5vw;
+    background-size: contain;
+    opacity: 0.7;
+    border: 0.2vw solid black;
+}
+
+.textInsideImg {
+    font-size: 3.125vw;
+    margin: 5vw;
+    margin-top: 12.5vw;
+    margin-bottom: 1.875vw;
+    color: deeppink;
+}
+
+.jexp {
+    margin-left: 2.5vw;
+    font-size: 1.875vw;
+}
+
+.v1 {
+    background-image: url("./images/isro.jpeg");
+    height: 18.75vw;
+    width: 34.375vw;
+    background-size: contain;
+    border: 0.125vw solid white;
+    margin: 0.5vw;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.v2 {
+    background-image: url("./images/japanese.webp");
+    height: 12.03125vw;
+    width: 13.75vw;
+    background-size: contain;
+    border: 0.125vw solid white;
+    margin-right: 0.5vw;
+}
+
+.v3 {
+    background-image: url("./images/criticise.webp");
+    height: 12.03125vw;
+    width: 19.8vw;
+    background-size: contain;
+    border: 0.125vw solid white;
+    margin: 0.1vw;
+}
+
+.hor {
+    display: flex;
+    flex-direction: row;
+}
+
+.v1:hover {
+    background-image: url("./images/isro.jpeg");
+    height: 18.75vw;
+    width: 34.375vw;
+    background-size: contain;
+    border: 0.25vw solid white;
+    cursor: pointer;
+}
+
+.v2:hover {
+    background-image: url("./images/japanese.webp");
+    height: 12.03125vw;
+    width: 13.75vw;
+    background-size: contain;
+    border: 0.25vw solid white;
+    cursor: pointer;
+}
+
+.v3:hover {
+    background-image: url("./images/criticise.webp");
+    height: 12.03125vw;
+    width: 20.3125vw;
+    background-size: contain;
+    border: 0.25vw solid white;
+    cursor: pointer;
+}
+
+.jwstouter:hover {
+    background-image: url("./images/jwst.jpg");
+    height: 31.25vw;
+    width: 37.5vw;
+    left: 2.5vw;
+    background-size: contain;
+    opacity: 1;
+    border: 0.4vw solid white;
+    cursor: pointer;
+}
+
+.links li {
+    cursor: pointer;
+}
+
+#dropdownlist:focus {
+    margin-top: 10px;
+    height: 40px;
+    border: 2px solid white;
+    outline: none; 
+}
+
+.links a:focus {
+    color: blueviolet;
+}
+
+.footer {
+    background-color: rgb(93, 70, 222);
+    font-weight: bold;
+}

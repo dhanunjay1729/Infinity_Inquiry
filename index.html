@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <title>InfinityInquiry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar" name="Explore">
+        <select name="Explore" id="dropdownlist">
+            <option>Explore</option>
+            <option value="solarsystem.html">Solar System</option>
+            <option value="milkyway.html" >Milky way galaxy</option>
+            <option value="blackhole.html">Black holes</option>
+            <option value="bigbang.html">Big Bang</option>
+            <option value="rocket.html">How rocket works?</option>
+        </select>
+
+        <input type="text" placeholder="Search" class="searchbar">
+
+        <img src="images/logo.png" class="logo">
+
+        <p class="heading">InfinityInquiry</p>
+
+        <ul class="links">
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+        </ul> 
+        <button class="login" onclick="window.location.href='login.html';">Login</button>
+    </div>
+    <div >
+        <p class="luxurious-script-regular">Sky is not the limit!</p>
+        <marquee><p style="font-size: 1.25vw;">Welcome to InfinityInquiry. Our website serves as your ultimate resource for information on all things related to space objects. Whether you're curious about celestial bodies, satellites, spacecraft, or any other cosmic entity, you'll find comprehensive details and fascinating insights here. Explore the cosmos with us and expand your understanding of the universe.</p></marquee>
+    </div>
+
+    <div class="main">
+        <div class="background"></div>
+ 
+        <h1 style="position: absolute; left: 3vw;" class="news-heading">Latest space news</h1>
+        <br><br>
+        <div class="news">
+            <div class="jwstouter">
+                <div class="jwst">
+                    <p class="textInsideImg" onclick="window.location.href='https://phys.org/news/2024-03-jwst-nature-distant-galaxy-cluster.html';">JWST observations shed more light on the nature of a distant galaxy cluster</p>
+                </div>
+            </div>
+
+            <div class="vertical">
+                <div class="v1">
+                    <p class="v1t" style="font-size: 1.75vw; margin-top: 14.5vw;" onclick="window.location.href = 'https://www.livemint.com/news/four-iaf-test-pilots-to-go-on-india-s-first-manned-space-mission-11709042599631.html';">Four IAF test pilots to go on India’s first manned space mission</p>
+                </div>
+                <div class="hor">
+                    <div class="v2">
+                        <p style="color: white; margin-top: 9vw; font-size: 1.05vw; font-weight: bold;" onclick="window.location.href = 'https://www.aljazeera.com/news/2024/3/13/japanese-solid-fuelled-rocket-explodes-shortly-after-launch';">Japanese solid-fuelled rocket explodes shortly after launch</p>
+                    </div>
+                    <div class="v3">
+                        <p style="margin-top: 9vw; font-size: 1.25vw;" onclick="window.location.href = 'https://spacenews.com/astronomers-criticize-proposed-space-telescope-budget-cuts/';">Astronomers criticize proposed space telescope budget cuts </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="text-align: center; color: white; padding: 1vw;">Copyright &copy 2024 InfinityInquiry</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

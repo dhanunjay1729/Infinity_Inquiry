@@ -1,0 +1,71 @@
+/*solar system*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.Solarimage{
+    text-align: center;
+    background-color: black;
+}
+.Sheading{
+    color: white;
+    font-size: 3rem;
+}
+.content{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    width: 80%;
+    padding: 10%;
+    padding-top: 5%;
+}
+
+.img{
+    width: 100%;
+}
+
+.sunpic{
+    float: left;
+    margin: 30px;
+    margin-top: 0;
+}
+
+.sunp{
+    font-size: 1.25rem;
+}
+
+.planets{
+    margin-top: 75px;
+}
+
+.planetpic{
+    float: right;
+    margin: 30px;
+}
+
+.planetc{
+    font-size: 1.25rem;
+    padding-left: 50px;
+}
+
+.line{
+    color: white;
+    margin: 75px;
+    margin-top: 0;
+}
+
+.picl{
+    float: left;
+    margin: 30px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.ac{
+    font-size: 1.25rem;
+}
+.footer{
+    background-color: white;
+}

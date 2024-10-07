@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket</title>
+    <link rel="stylesheet" href="rocket.css">
+</head>
+<body onload="stars()">
+    <div class="scene">
+        <div class="rocket">
+            <img src="images/rocket.png">
+        </div>
+        <p style="color: white; position: absolute; left: 0; font-size: 100px; background-color: transparent;">How rockets</p>
+        <br>
+        <p style="color: white; position: absolute; left: 0; font-size: 100px; top: 450px; background-color: transparent;">work?</p>
+    </div>
+    
+    <div class="text">
+        <span style="font-size: 40px;">W</span>hether flying a small model rocket or launching a giant cargo rocket to Mars, the principles of how rockets work are exactly the same.
+        Understanding and applying these principles means
+mission success.<br><br>
+In the early days of rocketry, the flight of a fire
+arrow or other rocket device was largely a matter
+of chance. It might fly; it might skitter about, shooting sparks and smoke; or it might explode. Through
+centuries of trial and error, rockets became more
+reliable. However, real advancements in rocketry
+depended upon a scientific and mathematical
+understanding of motion. That came in the seventeenth century with the works of scientists such as
+Galileo and Isaac Newton.<br><br>
+Galileo conducted a wide range of experiments
+involving motion. Through studies of inclined
+planes, Galileo concluded that moving objects
+did not need the continuous application of force
+(in the absence of friction and drag) to keep moving. Galileo discovered the principle of inertia, that
+all matter, because of its mass, resists changes in
+motion. The more mass, the more resistance.
+Isaac Newton, born the year Galileo died, advanced
+Galileo’s discoveries and those of others by proposing three basic laws of motion. These laws are the
+foundation of all rocket science. Understand the
+laws and you know just about everything you need
+to build successful rockets. Apply the laws and you
+become a “rocket scientist. <br><br><br><br>
+
+<span style="font-size: 40px;">Newton's laws of motion</span><br><br>
+
+In his master work entitled Philosophia Naturalis
+Principia Mathematica (usually referred to as
+Principia), Isaac Newton stated his laws of motion.
+For the most part, the laws were known intuitively
+by rocketeers, but their statement in clear form
+elevated rocketry to a science. Practical application
+of Newton’s laws makes the difference between failure and success. The laws relate force and direction
+to all forms of motion.<br><br>
+    
+        <div class="laws">
+           <span style="font-size: 2vw; font-weight: bolder;"> First Law</span><br>
+Objects at rest remain at rest and objects in
+motion remain in motion in a straight
+line unless acted upon by an
+unbalanced force. <br><br>
+<span style="font-size: 2vw; font-weight: bolder;"> Second Law</span><br>
+Force equals mass times acceleration
+(or f = ma).<br><br>
+<span style="font-size: 2vw; font-weight: bolder;"> Third Law</span><br>
+For every action there is an equal and
+opposite reaction.  <br>
+       
+        </div>
+        <br><br>
+        <div class="images">
+            <img src="images/nl1.png" style="height: 100vh; width: 80vh;">
+            <img src="images/nl3.png" style="height: 100vh; width: 50vh;">
+        </div>
+
+    </div>
+
+    <script>
+        function stars(){
+            let count=50;
+            let scene=document.querySelector('.scene');
+            let i=0;
+            while(i<count){
+                let star=document.createElement('i');
+                let x=Math.floor(Math.random()*window.innerWidth);
+
+                let duration=Math.random()*1;
+                let h=Math.random()*100;
+
+                star.style.left=x+'px';
+                star.style.width=1+'px';
+                star.style.height=50+h+'px';
+                star.style.animationDuration=duration+'s';
+
+                scene.appendChild(star);
+                i++
+            }
+        }
+    </script>
+</body>
+</html>

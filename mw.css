@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+}
+.mwpic{
+    height: 100vh;
+    float: left;
+}
+.mwh{
+    font-size: 3rem;
+    text-align: center;
+}
+.que{
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+.mwc{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.mwo{
+    color: orange;
+    margin-bottom: 0;
+}
+.arrow {
+    font-size: 200px; 
+    color: blue; 
+    font-weight: bold; 
+    margin-top: 0px;
+  }
+
+.mwcb{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.mws{
+    color: pink;
+}
+.mwspic{
+    width: 100%;
+}
+.line{
+    color: white;
+    margin: 75px;
+    margin-top: 0;
+}
+.footer{
+    background-color: white;
+}
